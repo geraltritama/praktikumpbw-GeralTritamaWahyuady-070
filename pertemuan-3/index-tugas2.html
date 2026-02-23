@@ -8,44 +8,49 @@
 <body>
     <form action="" method="post">
         <h1>LOGIN FORM:</h1>
-        
-        <div>
-            <label for="nama"><b>Nama: </b></label> 
-            <input type="text" name="namaLengkap" placeholder="masukan nama" required maxlength="50">
-        </div>
-        
-        <div>
-            <label for="mail"><b>Email:</b></label>
-            <input type="email" name="email" id="" placeholder="example@gmail.com" required>
-        </div>
-    
-        <div>
-            <label for="jenisKelamin"><b>Jenis Kelamin: </b></label>
-            <input type="radio" name="gender" value="L"> Laki-laki
-            <input type="radio" name="gender" value="P"> Perempuan
-        </div>
-    
-        <div>
-            <label for="hobi"><b>Hobi: </b></label>
-            <input type="checkbox" name="hobi" value="1"> Musik
-            <input type="checkbox" name="hobi" value="2"> Olahraga
-        </div>
-    
-        <div>
-            <label for="city"><b>Pilih kota: </b> </label>
-            <select name="kota" id="" required>
-                <option value="Jkt" selected>Jakarta</option>
-                <option value="Bks">Bekasi</option>
-                <option value="Krw">Karawang</option>
-            </select>
-        </div>
-    
-        <div>
-            <label for="foto"><b>Upload foto:</b></label>
-            <input type="file">
-        </div>
-    
-        <button type="submit">Daftar</button>
+        <table>
+        <tr>
+            <td><label for="nama"><b>Nama:</b></label></td>
+            <td><input type="text" id="nama" name="namaLengkap" placeholder="masukan nama" required maxlength="50"></td>
+        </tr>
+        <tr>
+            <td><label for="mail"><b>Email:</b></label></td>
+            <td><input type="email" id="mail" name="email" placeholder="example@gmail.com" required></td>
+        </tr>
+        <tr>
+            <td><label><b>Jenis Kelamin:</b></label></td>
+            <td>
+                <input type="radio" name="gender" value="L"> Laki-laki
+                <input type="radio" name="gender" value="P"> Perempuan
+            </td>
+        </tr>
+        <tr>
+            <td><label><b>Hobi:</b></label></td>
+            <td>
+                <input type="checkbox" name="hobi" value="1"> Musik
+                <input type="checkbox" name="hobi" value="2"> Olahraga
+            </td>
+        </tr>
+        <tr>
+            <td><label for="city"><b>Pilih kota:</b></label></td>
+            <td>
+                <select name="kota" id="city" required>
+                    <option value="Jkt" selected>Jakarta</option>
+                    <option value="Bks">Bekasi</option>
+                    <option value="Krw">Karawang</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="foto"><b>Upload foto:</b></label></td>
+            <td><input type="file" id="foto" name="foto"></td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">Daftar</button>
+            </td>
+        </tr>
+    </table>
     </form>
 </body>
 </html>
