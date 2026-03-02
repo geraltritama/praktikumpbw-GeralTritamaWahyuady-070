@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            color: salmon;
+
+        }
+        p {
+            background-color: skyblue;
+            padding-bottom: 20px;
+            margin: 20px auto 0;
+            border: 2px solid red;
+            width: 500px;
+        }
+
+        .main {
+            border: 2px solid blue;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .satu {
+            background-color: blueviolet;
+        }
+        
+        .static{
+            position: static;
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+        }
+
+        .relative{
+            position: "";
+            background-color: green;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+        }
+
+        .absolute{
+            position: "";
+            background-color: yellow;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 0;
+            background-color: blue;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+        }
+        
+        .fixed:hover {
+            background-color: salmon;
+            transition: background-color 0.5s ease;
+        }
+    </style>
+
+    <title>Belajar CSS</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Apa itu CSS?</h1>
+        <p class="satu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptatem aperiam doloremque eius sed commodi velit tenetur asperiores, rem numquam eos vitae fugit accusantium?</p>
+        <p class="dua">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, dignissimos!</p>
+    </div>
+
+    <div class="static">
+        contoh static
+    </div>
+
+    <div class="relative">
+        contoh relative
+    </div>
+        
+    <div class="absolute">
+        contoh absoulte
+    </div>
+        
+    <div class="fixed">
+        contoh fixed
+    </div>
+</body>
+</html>

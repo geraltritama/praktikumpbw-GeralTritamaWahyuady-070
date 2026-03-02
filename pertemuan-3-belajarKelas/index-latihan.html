@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM | Pemograman Web</title>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <h1>Form Login</h1>
+            <label for=""><b>Masukan nama:</b></label>
+            <input type="text" name="username" placeholder="masukan nama" value="" required>
+            <div class="desk-diri">
+                <label for=""><b>Deskripsikan diri kamu: </b></label>
+                <br>
+                <textarea name="deskripsi" id="" rows="15" cols="45" placeholder="Saya adalah..."></textarea>
+            </div>
+
+            <div class="jenis-kelamin">
+                <label for=""><b>Jenis kelamin:</b> </label>
+                <select name="gender" id="" required>
+                    <option value="L" selected>Laki-laki</option>
+                    <option value="P">Perempuan</option>
+                    <option value="N">Non-binary</option>
+                </select>
+            </div>
+
+            <div>
+                <label for=""><b>Pilih domisili:</b></label>
+                <br>
+                <input type="radio" name="Bekasi" value="1" checked> Bekasi
+                <input type="radio" name="Karawang" value="2"> Karawang
+                <input type="radio" name="Jakarta" value="3"> Jakarta
+            </div>
+
+            <div>
+                <label for=""><b>Pilih hobi:</b></label>
+                <br>
+                <input type="checkbox" name="Bekasi" value="1"> Futsal
+                <input type="checkbox" name="Karawang" value="2"> Badminton
+                <input type="checkbox" name="Jakarta" value="3"> Catur
+            </div>
+
+            <button type="submit">
+                Submit
+            </button>
+
+            <button type="button" onclick="alert('halo')">
+                Munculkan Alert
+            </button>
+
+            <div>
+                <label for=""><b>Upload file:</b></label>
+                <input type="file">
+            </div>
+
+            <div>
+                
+            </div>
+        </div>
+    </form>
+</body>
+</html>
