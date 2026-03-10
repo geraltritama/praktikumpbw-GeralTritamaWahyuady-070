@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JavaScript</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1 id="judul">Pertemuan ...</h1>
+    <button onclick="alert('halo ges!!!')">Click Me</button>
+    <button style="color: aqua;" onclick="ubahJudul()">Tombol</button>
+    <button style="color: red;" onclick="ubahJudulAwal()">Tombol</button>
+    <button style="color: yellow;" onclick="salam()">Tombol</button>
+
+    <script>
+        function ubahJudul(){
+            document.getElementById('judul').innerHTML = 'Judul Berubah - Pakai inner html';
+        }
+
+        function ubahJudulAwal(){
+            document.getElementById('judul').innerHTML = 'PERTEMUAN 5 GES';
+        }
+
+        function salam(){
+            document.getElementById('judul').innerText = 'ASSALAMUALAIKUM';
+        }
+    </script>
+</body>
+</html>
