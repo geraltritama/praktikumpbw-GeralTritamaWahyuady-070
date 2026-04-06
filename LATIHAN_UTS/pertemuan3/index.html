@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN FORM</title>
+</head>
+<body>
+    <form action="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="gender">Jenis Kelamin:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Laki-laki</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Perempuan</label><br>
+        
+        <label for="hobi">Hobi:</label><br>
+        <input type="checkbox" id="hobi1" name="hobi" value="membaca">
+        <label for="hobi1">Membaca</label>
+        <input type="checkbox" id="hobi2" name="hobi" value="bermain">
+        <label for="hobi2">Bermain</label><br>
+        
+        <label for="kota">Kota:</label>
+        <select id="kota" name="kota">
+            <option value="jakarta">Jakarta</option>
+            <option value="surabaya">Surabaya</option>
+            <option value="bandung">Bandung</option>
+        </select><br>
+
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto" name="foto"><br>
+
+        <input type="submit" value="Daftar">
+        <button type="submit">kirim</button>
+    </form>
+</body>
+</html>
